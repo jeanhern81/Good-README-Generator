@@ -57,6 +57,11 @@ function askQuestions() {
         },
         {
             type: "input",
+            message: "Technologies Used:",
+            name: "technologies"
+        },
+        {
+            type: "input",
             message: "Aside from yourself, are there any other contributors?",
             name: "contributors"
         },
