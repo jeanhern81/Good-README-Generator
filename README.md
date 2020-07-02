@@ -10,11 +10,11 @@ The application is invoked with the following command:
 
 ---
 ## Table of Contents
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [License](#license)
-        - [Tests](#tests)
-        - [Contributors](#contributors)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Tests](#tests)
+- [Contributors](#contributors)
 
 ---
 ## Installation
