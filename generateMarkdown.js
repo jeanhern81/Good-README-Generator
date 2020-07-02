@@ -3,37 +3,37 @@ function generateMarkdown(data) {
     const gitHub = `https://img.shields.io/badge/Github-${data.username}-4cbbb9`;
 
     return `
-    ${data.project} 
+    # ${data.project} 
     
-    Description
+    ## Description
         ${data.description}
 
-    Table of Contents
+    ## Table of Contents
         - [Installation](#installation)
         - [Usage](#usage)
         - [License](#license)
         - [Tests](#tests)
         - [Contributors](#contributors)
 
-    Installation
+    ## Installation
     Packages required to run this program are: 
     ${data.installation}
     
-    Usage
+    ## Usage
     Examples of how to use this program: 
     ${data.usage}
 
-    License
+    ## License
     ${data.license}
 
-    Tests
+    ## Tests
     To test, run the following command:
     ${data.tests}
 
-    Contributors
+    ## Contributors
     ${data.contributors}
 
-    Contact
+    ## Contact
     \n![Badge](${gitHub}) 
     \n![Profile Image](${avatar})
     \nView the project in GitHub at: ${data.url}.`
