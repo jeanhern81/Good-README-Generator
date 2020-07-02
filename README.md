@@ -1,32 +1,40 @@
-
-    # Good README Generator 
-    
-    # Description
+---
+    ## Good README Generator 
+---   
+    ## Description
         I created a command-line application that gives you the ability to dynamically create README files.
-
-    # Table of Contents
+---
+    ## Table of Contents
         - [Installation](#installation)
         - [Usage](#usage)
         - [License](#license)
         - [Tests](#tests)
         - [Contributors](#contributors)
+---
+    ## Installation
+    Packages required to run this program are: 
+    inquirer, github api, markdown, fs
 
-    # Installation
-    Packages required to run this program are: inquirer, github api, markdown, fs
-    
-    # Usage
-    Examples of how to use this program: Examples of how to use this program: To easily create README files.
+---    
+    ## Usage
+    Examples of how to use this program: 
+    Examples of how to use this program: To easily create README files.
 
-    # License
+---
+    ## License
     MIT
 
-    # Tests
-    To test, run the following command: no test needed
+---
+    ## Tests
+    To test, run the following command: 
+    no test needed
 
-    # Contributors
+---
+    ## Contributors
     Jeanette Hernandez
 
-    # Contact
+---
+    ## Contact
     
 ![Badge](https://img.shields.io/badge/Github-jeanhern81-4cbbb9) 
     
