@@ -1,11 +1,15 @@
 
-## Good README Generator 
----    
-## Description
-A command-line application that will dynamically create a README.md from a series a questions that the user answers. 
-The application is invoked with the following command: node index.js 
+# Good README Generator 
+
 ---
-## Demonstration:
+## Description
+A command-line application that will dynamically create README.md from a series of questions that the users answers. 
+
+---
+## Demo
+![Video Demo](./assets/demo/README.webm)
+
+![Screenshot](./assets/images/screenshot.JPG)
 
 ---
 ## Table of Contents
@@ -15,24 +19,28 @@ The application is invoked with the following command: node index.js
 - [Tests](#tests)
 - [Contributors](#contributors)
 
+
 ---
 ## Installation
-Packages required to run this program are:  
-inquire
+Packages required to run this program are: 
+inquirer
+
 
 ---
 ## Usage
 Examples of how to use this program: 
-To facilitate the creation of README files.
+To facilitate the creation of README documents.
+
 
 ---
 ## License
 MIT
 
+
 ---
 ## Tests
-To test, run the following command: 
-no test needed
+To test, run the following command:
+no test are currently needed.
 
 ---
 ## Contributors
