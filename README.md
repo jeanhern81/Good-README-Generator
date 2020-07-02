@@ -7,7 +7,7 @@ A command-line application that will dynamically create README.md from a series 
 
 ---
 ## Demo
-![Video Demo](https://drive.google.com/file/d/1PgHPud2VFBTEJhNVeKobsi6VPRJICPZs/view?usp=sharing)
+![Video Demo](./assets/demo/README.mdDemo.gif)
 
 ![Screenshot](./assets/images/questions.JPG)
 
