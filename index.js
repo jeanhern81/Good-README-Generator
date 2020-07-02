@@ -3,12 +3,12 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("markdown-utils");
-const api = require("./utils/api");
-const async = require("rxjs/internal/scheduler/async");
+const api = require("github-api");
+
 
 //Questions//
 
-function askQuestions () {
+function askQuestions() {
     return inquirer.prompt ([
         {
             type: "input",
@@ -46,10 +46,14 @@ function askQuestions () {
             name: "usage"
         },
         {
-            type: "input",
+            type: "checkbox",
             message: "What kind of license would you like to use?",
             name: "license",
-            choices: ["MIT", "APACHE", "GPL", "BSD"]
+            choices: [
+                "MIT", 
+                "APACHE", 
+                "GPL", 
+                "BSD"]
         },
         {
             type: "input",
@@ -58,7 +62,7 @@ function askQuestions () {
         },
         {
             type: "input",
-            message: "To run a test, what commande is needed?",
+            message: "To run a test, what command is needed?",
             name: "test"
         }
     ]);
@@ -76,15 +80,14 @@ function writetoFile(fileName, data) {
 
 async function init() {
     try {
-        const answer = await askQuestions ();
+        const answers = await askQuestions();
         generateMarkdown(answers);
-        writetoFile("README.md", generateMarkdown(answer));
+        writetoFile("README.md", generateMarkdown(answers));
 
         
     } catch (err) {
         console.log(err);
     }
 };
-
 
 init();
