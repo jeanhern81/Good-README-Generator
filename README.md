@@ -3,8 +3,7 @@
 ---    
 ## Description
 A command-line application that will dynamically create a README.md from a series a questions that the user answers. 
-The application is invoked with the following command:  
-    node index.js 
+The application is invoked with the following command: node index.js 
 ---
 ## Demonstration:
 
