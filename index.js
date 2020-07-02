@@ -1,11 +1,12 @@
-/*variables*/
+//variables//
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("markdown-utils");
 const api = require("./utils/api");
+const async = require("rxjs/internal/scheduler/async");
 
-/*Questions*/
+//Questions//
 
 function askQuestions () {
     return inquirer.prompt ([
@@ -62,3 +63,28 @@ function askQuestions () {
         }
     ]);
 };
+
+//This function will generage the answers for the README file//
+function writetoFile(fileName, data) {
+    fs.writeFile(fileName, data, "utf8", function (err) {
+        if (err) {
+            throw err;
+        }
+        console.log("You just made a README file!");
+    });
+};
+
+async function init() {
+    try {
+        const answer = await askQuestions ();
+        generateMarkdown(answers);
+        writetoFile("README.md", generateMarkdown(answer));
+
+        
+    } catch (err) {
+        console.log(err);
+    }
+};
+
+
+init();
