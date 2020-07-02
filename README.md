@@ -12,7 +12,7 @@
         - [Contributors](#contributors)
 
     # Installation
-    Packages required to run this program are: inquirer
+    Packages required to run this program are:  inquire
     
     # Usage
     Examples of how to use this program: To facilitate the creation of README files.

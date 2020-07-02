@@ -1,11 +1,11 @@
 const colors = {
-  green: {
+green: {
     wrapperBackground: "#E6E1C3",
     headerBackground: "#C1C72C",
     headerColor: "black",
     photoBorderColor: "#black"
-  },
-  blue: {
+},
+blue: {
     wrapperBackground: "#5F64D3",
     headerBackground: "#26175A",
     headerColor: "white",

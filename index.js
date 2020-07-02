@@ -4,7 +4,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./generateMarkdown");
 const api = require("./api");
-const generateHTML = require(./generateHTML);
+const generateHTML = require("./generateHTML");
 
 
 //Questions//
