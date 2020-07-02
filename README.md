@@ -12,10 +12,10 @@
     - [Contributors](#contributors)
 
     ## Installation
-    Packages required to run this program are: inquirer, github api, markdown, fs
+    Packages required to run this program are: Packages required to run this program are: inquirer, github api, markdown, fs
     
     ## Usage
-    Examples of how to use this program: To easily create README files.
+    Examples of how to use this program: Examples of how to use this program: To easily create README files.
 
     ## License
     MIT
