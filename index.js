@@ -2,7 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("markdown-utils");
+const generateMarkdown = require("./generateMarkdown");
 const api = require("github-api");
 
 
@@ -63,7 +63,7 @@ function askQuestions() {
         {
             type: "input",
             message: "To run a test, what command is needed?",
-            name: "test"
+            name: "tests"
         }
     ]);
 };
