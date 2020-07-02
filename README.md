@@ -10,7 +10,7 @@
         ```
     ##  Demonstration:
 
-    
+
     ## Table of Contents
         - [Installation](#installation)
         - [Usage](#usage)
@@ -19,16 +19,19 @@
         - [Contributors](#contributors)
 
     ## Installation
-    Packages required to run this program are:  inquire
+    Packages required to run this program are:  
+    inquire
     
     ## Usage
-    Examples of how to use this program: To facilitate the creation of README files.
+    Examples of how to use this program: 
+    To facilitate the creation of README files.
 
     ## License
     MIT
 
     ## Tests
-    To test, run the following command: no test needed
+    To test, run the following command: 
+    no test needed
 
     ## Contributors
     Jeanette Hernandez
