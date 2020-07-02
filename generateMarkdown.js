@@ -3,7 +3,7 @@ function generateMarkdown(data) {
     const gitHub = `https://img.shields.io/badge/Github-${data.username}-4cbbb9`;
 
     return `
-    # ${data.project} 
+    ${data.project} 
     
     Description
         ${data.description}
