@@ -19,7 +19,9 @@ A command-line application that will dynamically create README.md from a series 
 - [License](#license)
 - [Tests](#tests)
 - [Contributors](#contributors)
+
 ---
+
 ## Installation
 Packages required to run this program are: 
 inquirer
