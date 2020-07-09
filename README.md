@@ -1,53 +1,35 @@
 
-# Good README Generator 
+    # Good README Generator 
+    
+    ## Description
+        A command-line application that will dynamically create README.md from a series of questions that the users answers.
 
----
-## Description
-A command-line application that will dynamically create README.md from a series of questions that the users answers. 
+    ## Table of Contents
+        - [Installation](#installation)
+        - [Usage](#usage)
+        - [License](#license)
+        - [Tests](#tests)
+        - [Contributors](#contributors)
 
----
-## Demo
-![Video Demo](./assets/demo/README.mdDemo.gif)
+    ## Installation
+    Packages required to run this program are: 
+    inquirer
+    
+    ## Usage
+    Examples of how to use this program: 
+    To facilitate the creation of README documents
 
-![Screenshot](./assets/images/questions.JPG)
+    ## License
+    MIT
 
----
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Tests](#tests)
-- [Contributors](#contributors)
+    ## Tests
+    To test, run the following command:
+    no test are currently needed.
 
+    ## Contributors
+    Jeanette Hernandez
 
----
-## Installation
-Packages required to run this program are: 
-inquirer
-
-
----
-## Usage
-Examples of how to use this program: 
-To facilitate the creation of README documents.
-
-
----
-## License
-MIT
-
-
----
-## Tests
-To test, run the following command:
-no test are currently needed.
-
----
-## Contributors
-Jeanette Hernandez
-
----
-## Contact
+    ## Contact
     
 ![Badge](https://img.shields.io/badge/Github-jeanhern81-4cbbb9) 
     
