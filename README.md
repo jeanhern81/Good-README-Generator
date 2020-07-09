@@ -6,9 +6,12 @@
 ![](./assets/images/questionsLicensing.JPG)
 ![](./assets/images/questions.JPG)
 
+---
 
 ## Description
 A command-line application that will dynamically create README.md from a series of questions that the users answers.
+
+---
 
 ## Table of Contents
 - [Installation](#installation)
