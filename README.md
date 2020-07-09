@@ -1,11 +1,11 @@
 # Good README Generator 
 
 # Demo
-![gif](.assets/demo/README.mdDemo.gif)
+![gif](./assets/demo/README.mdDemo.gif)
 
-
-![](./assets/images/questions.JPG)
 ![](./assets/images/questionsLicensing.JPG)
+![](./assets/images/questions.JPG)
+
 
 ## Description
 A command-line application that will dynamically create README.md from a series of questions that the users answers.
