@@ -23,7 +23,7 @@
   "dependencies": {
     "github-api": "^3.3.0",
     "inquirer": "^7.2.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "markdown-utils": "^1.0.0"
   }
 }
